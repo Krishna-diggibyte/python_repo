@@ -1,8 +1,3 @@
-from util import find_runner_up
+from src.find_the_runner_up_score.util import find_runner_up
 
-if __name__ == '__main__':
-    n = int(input())
-    arr = map(int, input().split())
-    new_list = (list(arr))
-    new_list.sort()
-    find_runner_up(new_list)
+find_runner_up()
