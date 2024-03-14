@@ -1,0 +1,3 @@
+from src.validating_email_addresses_with_a_filter.util import validating_email
+
+validating_email()
