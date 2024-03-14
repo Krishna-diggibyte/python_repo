@@ -5,8 +5,7 @@ logging.basicConfig(level=logging.INFO ,format='%(message)s')
 def floor_ceil():
 
     np.set_printoptions(legacy='1.13')
-    # n=input()
-    n="1.1 2.2 3.3 4.4 5.5 6.6 7.7 8.8 9.9"
+    n=input()
 
     new_arr=list(float(i) for i in n.split(' '))
 
@@ -20,7 +19,11 @@ def floor_ceil():
     # logging.info(n_c)
     # logging.info(n_r)
     logging.info("%s \n%s \n%s \n",n_f,n_c,n_r)
-    return n_f,n_c,n_r
+    return (n_f,"\n",n_c,"\n",n_r)
+
+
+    return  result
+
 
     #
     # arr1_str = np.array2string(n_f, formatter={'float_kind': lambda x: "%.0f" % x})
