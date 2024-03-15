@@ -19,7 +19,7 @@ def floor_ceil():
     # logging.info(n_c)
     # logging.info(n_r)
     logging.info("%s \n%s \n%s \n",n_f,n_c,n_r)
-    return (n_f,"\n",n_c,"\n",n_r)
+    return (n_f,n_c,n_r)
 
 
     return  result
