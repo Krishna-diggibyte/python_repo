@@ -133,3 +133,62 @@ User prompts to input the size of the square matrix and its elements.
 Calculation of the determinant using numpy.linalg.det().
 Printing the determinant rounded to 2 decimal places.
 ```
+
+Question-13 (Mean, Var and Std)
+```
+A function calculate_mean_variance_std() to encapsulate the code logic.
+User prompts to input the number of rows and columns and the elements of each row.
+Creation of a 2D NumPy array from the user input.
+Calculation of mean along each row, variance along each column, and standard deviation of the whole array.
+Conversion of the calculated statistics to strings.
+Logging of the calculated statistics.
+```
+
+Question-14 (No Idea!)
+```
+The calculate_happiness() function encapsulates the logic for calculating happiness.
+User inputs are read for n, m, the array arr, and sets A and B.
+The happiness score is calculated based on the elements of arr belonging to sets A and B.
+The happiness score is logged using the loggigng.info() function.
+The function returns the happiness score.
+```
+
+Question-15 (Word Order)
+```
+The word_order() function encapsulates the logic for counting word occurrences.
+User input is read for the number of words (n) and the words themselves, which are stored in a list.
+The Counter class from the collections module is used to count the occurrences of each word in the list.
+The number of unique words and the counts of each word are appended to a list called ans.
+The ans list is logged using the logging.info() function.
+The word_order() function returns the ans list.
+```
+
+Question-16 (Pilling Up)
+```
+The pilling_up() function encapsulates the logic for reordering elements.
+User input is read for the number of test cases (t), the number of elements in each test case (n), and the elements themselves.
+For each test case, the elements are reordered according to the specified criteria.
+The reordering is checked, and the result is logged using the logging.info() function.
+The function returns the answer as a string.
+```
+
+Question-17 (Iterables Iterators)
+```
+The iterables_iterators() function encapsulates the logic for calculating the probability.
+User input is read for the value of N, the elements of the list N_list, and the value of K.
+All combinations of length K from the list N_list are generated using the combinations function from the itertools module.
+The number of combinations containing the element 'a' is counted.
+The probability of selecting a combination containing 'a' is calculated.
+The calculated probability is logged using the logging.info() function.
+The function returns the probability rounded to 6 decimal places.
+```
+
+Question-18 (Email Validation using Filter)
+```
+The valid_emails() function encapsulates the logic for validating and filtering emails.
+The is_valid_email() function checks if an email is valid using a regular expression pattern.
+The filter_emails() function filters out valid emails from a list of emails.
+User input is read for the number of emails (n) and the emails themselves.
+The valid_emails() function calls filter_emails() to filter the valid emails and sorts them.
+The filtered emails are logged using the logging.info() function.
+```
