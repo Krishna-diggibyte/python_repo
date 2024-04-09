@@ -24,25 +24,3 @@ def floor_ceil():
 
     return  result
 
-
-    #
-    # arr1_str = np.array2string(n_f, formatter={'float_kind': lambda x: "%.0f" % x})
-    #
-    # print(arr1_str)
-    # print(n_f)
-    #
-    # combined_string ='['+ ','.join(map(str, n_f)) + ']\n[' + ','.join(map(str, n_c)) + ']\n[' + ','.join(map(str, n_r))+']'
-    #
-    # print(combined_string)
-    # return combined_string
-    # return n_c+" "+n_f+" "+n_r
-    #
-    # print(n_c)
-    # ans = ' '.join(map(str, n))
-    # logging.info({},{},n_f,n_c)
-    # logging.info(n_c)
-    # logging.info(n_r)
-    #
-    #
-    # ans= (np.floor(new_arr),'\n'+np.ceil(new_arr),'\n'+np.rint(new_arr))
-    # return ans
